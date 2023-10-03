@@ -4,7 +4,7 @@
     --color-light-50: #f8fafc;
 
     --color-dark-50: #797984;
-    --color-dark-100: #797984;
+    --color-dark-100:  #312d37;
     --color-dark-900: #000;
 
     --color-purple-50: #7c3aed;
@@ -26,11 +26,12 @@
 #container{
     height: 100vh;
     width: 100%;
-    background: var(--color-gradient);
     display: flex;
     align-items: center;
     justify-content: center;
+    background: var(--color-gradient);
 }
+
 #login_form{
     background-color: var(--color-light-50);
     display: flex;
@@ -75,8 +76,6 @@
     width: 35px;
 
 }
-
-
 
 #social_media img:hover{
     transform: scale(1.2);
